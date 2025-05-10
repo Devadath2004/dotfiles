@@ -1,0 +1,24 @@
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+  caps a s d f j k l ; lsft
+)
+
+(defalias
+  escctrl    (tap-hold 300 300 bspc esc)
+  actrl      (tap-hold 300 300 a lctrl)
+  sshift     (tap-hold 300 300 s lshift)
+  dalt       (tap-hold 300 300 d lalt)
+  fsuper     (tap-hold 300 300 f lmeta)
+  jsuper     (tap-hold 300 300 j rmeta)
+  kalt       (tap-hold 300 300 k ralt)
+  lshift     (tap-hold 300 300 l rshift)
+  colon-ctl  (tap-hold 300 300 ; lctrl)
+  enter-rctl (tap-hold 300 300 enter rctrl)
+)
+
+(deflayer base
+  @escctrl @actrl @sshift @dalt @fsuper @jsuper @kalt @lshift @colon-ctl @enter-rctl
+)

@@ -1,0 +1,13 @@
+[General]
+Default Identity=1145510290
+
+[Identity #0]
+Default Domain=fedora
+Disable Fcc=false
+Identity=Devadath R S
+Image Location=
+Inline Signature=
+Name=Devadath R S
+Override Encryption Defaults=false
+Signature Enabled=false
+uoid=1145510290
